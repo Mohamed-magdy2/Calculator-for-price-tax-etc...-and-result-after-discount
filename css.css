@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: rgb(35, 52, 98);
+}
+
+
+input{
+  
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 250px;
+  height: 30px;
+  border: none;
+  outline: solid 5px rgb(0, 166, 255) ;
+  border-radius: 8px;
+  padding-left: 10px;
+  font-size: 22px;
+  border-width: 2px;
+  
+}
+input:focus{
+  border: none ;
+  transition: 0.4s;
+  outline: solid 5px rgb(0, 166, 255) ;
+  width: 280px;
+  height: 35px;
+
+
+}
+
+::placeholder{
+  font-size: 16px;
+  margin: 10px;
+  
+ 
+}
+small{
+  margin-left: 20px;
+  background-color: white;
+  width: 40px;
+  height: 20px;
+  font-size: 30px;
+  
+}
+#total::before{
+  content: "Total: ";
+  
+}
+
+#total {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
